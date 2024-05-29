@@ -156,7 +156,11 @@ The LSTM model demonstrates strong performance on both untrained and trained dat
 | Untrained  | 0.927    | 0.944       | 0.915       |
 | Trained    | 0.975    | 0.980       | 0.970       |
 
-![Confusion Matrix for LSTM Model](Images/ConfusionMatrixTrainedDatasetLTSM.png) ![Confusion Matrix for LSTM Model](Images/ConfusionMatrixUntrainedDatasetLTSM.png)
+<div style="display: flex; justify-content: center;">
+  <img src="Images/ConfusionMatrixTrainedDatasetLTSM.png" alt="Confusion Matrix for LSTM Model - Trained Dataset" style="width: 48%;">
+  <img src="Images/ConfusionMatrixUntrainedDatasetLTSM.png" alt="Confusion Matrix for LSTM Model - Untrained Dataset" style="width: 48%;">
+</div>
+
 
 ### Performance Evaluation of BLSTM Model
 
@@ -167,7 +171,11 @@ The BLSTM model also exhibits impressive performance on both untrained and train
 | Untrained  | 0.940    | 0.937       | 0.942       |
 | Trained    | 0.989    | 0.995       | 0.984       |
 
-![Confusion Matrix for BLSTM Model](Images/ConfusionMatrixTrainedDatasetBLTSM.png) ![Confusion Matrix for BLSTM Model](Images/ConfusionMatrixUntrainedDatasetBLTSM.png)
+<div style="display: flex; justify-content: center;">
+  <img src="Images/ConfusionMatrixTrainedDatasetBLTSM.png" alt="Confusion Matrix for BLSTM Model - Trained Dataset" style="width: 48%;">
+  <img src="Images/ConfusionMatrixUntrainedDatasetBLTSM.png" alt="Confusion Matrix for BLSTM Model - Untrained Dataset" style="width: 48%;">
+</div>
+
 
 
 ## Conclusion and Future Perspective
