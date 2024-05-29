@@ -137,9 +137,9 @@ The following metrics can be used to evaluate the performance of the model:
 
 - **Specificity (SP) / True Negative Rate:** It measures the fraction of actual negative instances (non-events) that are correctly predicted by the model. It is given by
 
-  $$
-  SP = \frac{TN}{TN + FP}
-  $$
+$$
+SP = \frac{TN}{TN + FP}
+$$
 
 - **Overall Accuracy (ACC):** It measures the proportion of correct predictions (both true positives and true negatives) out of the total predictions made by the model. It is given by
 
@@ -156,7 +156,7 @@ The LSTM model demonstrates strong performance on both untrained and trained dat
 | Untrained  | 0.927    | 0.944       | 0.915       |
 | Trained    | 0.975    | 0.980       | 0.970       |
 
-![Confusion Matrix for LSTM Model](Image/ConfusionMatrixTrainedDatasetLTSM.png) ![Confusion Matrix for LSTM Model](Image/ConfusionMatrixUntrainedDatasetLTSM.png)
+![Confusion Matrix for LSTM Model](Images/ConfusionMatrixTrainedDatasetLTSM.png) ![Confusion Matrix for LSTM Model](Images/ConfusionMatrixUntrainedDatasetLTSM.png)
 
 ### Performance Evaluation of BLSTM Model
 
@@ -167,7 +167,7 @@ The BLSTM model also exhibits impressive performance on both untrained and train
 | Untrained  | 0.940    | 0.937       | 0.942       |
 | Trained    | 0.989    | 0.995       | 0.984       |
 
-![Confusion Matrix for BLSTM Model](Image/ConfusionMatrixTrainedDatasetBLTSM.png) ![Confusion Matrix for BLSTM Model](Image/ConfusionMatrixUntrainedDatasetBLTSM.png)
+![Confusion Matrix for BLSTM Model](Images/ConfusionMatrixTrainedDatasetBLTSM.png) ![Confusion Matrix for BLSTM Model](Images/ConfusionMatrixUntrainedDatasetBLTSM.png)
 
 
 ## Conclusion and Future Perspective
